@@ -9,8 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
 
     // Validación de prueba
     if(usuario === "admin" && password === "1234") {
-        mensaje.style.color = "green";
-        mensaje.textContent = "¡Ingreso exitoso!";
+        window.location.href = "exito.html";
         // Aquí luego pondremos el código para redirigir a la página del modelo predictivo
     } else {
         mensaje.style.color = "red";
